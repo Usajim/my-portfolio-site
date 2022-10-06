@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Usaji Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;
+1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+ integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+
+<body>
+
+<!-----------------Nav Section------------------>
+    <div class="header" id="header">
+        <nav>
+            <h2 class="logo">Usaji</h2>
+
+            <ul id="sidemenu">
+                <li><a href="#header" class="nav__link">Home</a></li>
+                <li><a href="#about" class="nav__link">About Me</a></li>
+                <li><a href="#service" class="nav__link">Services</a></li>
+                <li><a href="#portfolio" class="nav__link">Skills</a></li>
+                <li><a href="#contact" class="nav__link">Contact</a></li>  
+                <i class="fas fa-xmark" onclick="closemenu()"></i> 
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>   
+        </nav>
+       
+    </div>
+
+ <!---------------------About me Section------------------------------->
+
+        <section class="hero">
+        
+            <div class="hero--text home">
+                
+                <h4>Jambo, my name is</h4>
+                <h1>Mary Usaji</h1>
+                <h3>I am a Front End Developer</h3>  
+                </div>
+
+            <div class="hero__img">
+                <img src="/images/picw.png" alt="Mary's Pic">
+            </div>
+        </section>
+    
+<!---------------------tech--------------------------------------->
+
+        <section class="devskills">
+           <div class="skill--text">
+            <h1>Development Skills</h1>
+            <h3>I am proficient in, but not limited to the following Skills listed  below </h3>
+           </div>
+           
+
+            </p>
+            <div class="devskillsitems">
+               <div><p>Javascript</p></div>
+               <div><p>React</p></div>
+               <div><p>HTML</p></div>
+               <div><p>CSS</p></div>
+               <div><p>Wordpress</p></div>
+               <div><p>Solidity</p></div>
+               
+            </div>
+        </section>
+
+ <!---------------------About me Section------------------------------->
+
+    <section class="about" id="about">
+        <div class="main">
+            <img src="/images/desk.jpg" alt="Picture of Mary Standing">
+
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h3>Web Designer <span>& Developer based in Nairobi</span></h3>
+                <p>I help small business and companies bring their ideas to life. 
+                     I turn your requirements into scalable, highly responsive modern websites - on time and on a budget.
+                </p>
+                <a href="#contact" class="button"> Let's Talk</a>
+            </div>
+        </div>
+    </section>
+
+<!---------------------Service Section------------------------------->
+        <section class="services" id="service">
+            <div class="services__title">
+                <h1>My Services</h1>
+            </div>
+
+            <div class="box">
+                <div class="service__card">
+                    <i class="fas fa-earth-americas"></i>
+                    <h3>Web Development</h3>
+                    <div class="service__description">
+                        <p>
+                            My approach to website design is to create a website that 
+                            strengthens your company’s brand while ensuring ease of use and simplicity for your clients.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="service__card">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>SEO & Ecommerce</h3>
+                    <div class="service__description">
+                        <p>
+                            I build projects that use basic SEO principles which push your website to the first page on search engines. 
+                            I develop Woocomerce sites configured with an e-shopping interface for online shopping.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="service__card">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h3>Tech Support</h3>
+                    <div class="service__description">
+                        <p>
+                            I provide website maintenance support to ensure your site is uptodate. I also customize SAAS application 
+                            like Teachable, Active Campaign , CRM's and Click Funnels.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+ <!---------------------Portfolio Section------------------------------->
+
+        <section class="portfolio" id="portfolio">
+            <div class="portfolio__items">
+                <h1>My Work</h1>
+
+                <div class="work--list">
+
+                    <div class="work">
+                        <img src="/images/tingo__background.png" alt="">
+                        <div class="layer">
+                            <img src="/images/tingo__logo.jpg" alt="">
+                            <p>Agri-Fintech company, transforming rural farming communities by 
+                                providing connectivity and access to Tingo’s extensive and unique platform.</p>
+                            <a href="https://tingoinc.com" target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="work">
+                        <img src="/images/peak__background.jpg" alt="">
+                        <div class="layer">
+                            <img src="/images/peak.jpg" alt="">
+                            <p>Transformational Training firm in Kenya conducting human 
+                                capacity development and life transformation programs.</p>
+                            <a href="https://peakperformance-int.com" target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/global__background.jpg" alt="">   
+                       
+                        <div class="layer">
+                            <img src="/images/global-div.jpg" alt="">
+                            <p> Platform that provides information, resources and links of countries and different world cultures.</p>
+                            <a href="https://globaldiversityhub.com" target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work--list">
+                    <div class="work">
+                        <img src="/images/moninda__backgroun.jpg" alt="">
+                        <div class="layer">
+                            <img src="/images/moninda.jpg" alt="">
+                            <p> Self development propgrams that are  dedicated to promote holistic experience about self. </p>
+                            <a href="https://moninda.com" target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="work">
+                        <img src="/images/topline__background.jpg" alt="">
+                       
+                        <div class="layer">
+                            <img src="/images/topline__logo.png" alt="">
+                            <p>Tours and Travels car hire service Company for all types of travelers including 
+                                safari tourists, business and leisure travelers</p>
+                            <a href="https://toplineadventures.com" target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/cheese-processing-plant.jpg" alt="">
+                        <div class="layer">
+                            <img src="/images/dairy.png" alt="">
+                            <p>Supplier and leader of dairy
+                                 ingredients, processing & testing equipment for milk and dairy products.</p>
+                            <a href="https://dairyconsultingafrica.com" target="_blank"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!---------------------Contact Section------------------------------->
+        
+    <section class="contact" id="contact">
+        <div class="contact--title">
+            <h3 >Let me make you a beatiful Website</h3>
+        </div>
+            <div class="row">
+                <div class="contact--left">
+                    <h3>Contact Me</h3>
+                    <p><i class="fa-solid fa-envelope"></i> webenquiries22@gmail.com
+                    </p>
+                    <p><i class="fa-solid fa-phone"></i>+254715310306</p>
+                    <div class="social--icons">
+                        <a href="https://www.linkedin.com/in/mary-usaji-36961aa6/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Usajim"><i class="fab fa-github"></i></a>
+                        <a href="https://medium.com/@usaji"> <i class="fab fa-medium"></i></a>
+                        <a href="https://stackoverflow.com/users/14764754/mary-usaji"><i class="fab fa-stack-overflow"></i></a>
+                    </div>
+                    <a href="/images/myresume.pdf" download class="button btncv" >Download My Resume</a>
+                </div>
+                <div class="contact--right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Company" placeholder="Company Name">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btnsub">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+           
+        <div class="copyright">
+            <p>Copyright by Mary Usaji</p>
+        </div>
+        </section>
+   
+
+    <script src="/js/index.js"></script>
+</body>
+</html>
